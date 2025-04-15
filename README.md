@@ -1,5 +1,3 @@
-#Fake_News_Detection
-
 ## 📰 Fake News Detection Using Machine Learning
 This project aims to detect fake news articles using Natural Language Processing (NLP) and Machine Learning techniques. With the growing concern over misinformation on social media and online platforms, automated fake news detection systems are essential to help combat this issue.
 
@@ -29,7 +27,7 @@ In this project, we:
 - Source: Kaggle Fake News Dataset
 - The dataset contains Features like : index, title, text and label
 
-⚙️ Project Workflow
+## ⚙️ Project Workflow
 
  ## Data Loading
 - Combine real and fake news data, label them (0 = fake, 1 = real)
