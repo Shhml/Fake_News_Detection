@@ -38,11 +38,11 @@ In this project, we:
 - Removing punctuation and stopwords
 - Tokenization and lemmatization (optional)
 - Applying TF-IDF vectorization
-- Model Training
+## Model Training
 - Split the data into training and test sets
 - Train multiple ML models
 - Evaluate model performance
-- Model Evaluation
+## Model Evaluation
 - Accuracy Score
 - Confusion Matrix
 
@@ -58,3 +58,15 @@ Identify the best-performing model
 - Random Forest Performance	~95%
 - Multinomial Naive Bayes	~84%
 - Random Forest achieved the highest accuracy on the test dataset.
+
+## 🚀 Deployment
+- To make the model accessible for real-world use, a simple web application was developed using Flask:
+
+- Users can input a news article or headline.
+- The app will predict whether the news is fake or real using the trained ML model.
+- The app was deployed locally, and it can be further hosted on platforms like Heroku, Render, or Streamlit Cloud.
+
+## 💡 Technologies for Deployment:
+- Flask (Backend API)
+- HTML/CSS (Frontend Interface)
+- Pickle (to save and load the trained model)
